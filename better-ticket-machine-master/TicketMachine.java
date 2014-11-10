@@ -118,6 +118,11 @@ public class TicketMachine
         total = 0;
         return ntotal; 
     }
+    public void scondPrice()
+    {
+       
+        price = price - (price*10/100);
+    }
     
    
 }
